@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Степан.exe" version="1.0.0.2" publicKeyToken="eae6277d18e7a437" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Степан" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Степан.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Степан.exe" size="5241832">
+      <assemblyIdentity name="Степан" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZckQSxHVs///EYpYHiEYXrfea1TSKE0s4HVQdI5NsvA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Степан.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-SS7MA5DF\Степан" issuerKeyHash="529c05cd3eb5a1b2dafae3786aa2fb4e4bb11575" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iSvaem5YXbjvxyo6DaqIt9pfVur+DzzAKMQ1VpxrxGo=</DigestValue></Reference></SignedInfo><SignatureValue>H+ZOAwYAWCr9EmgRl26tlx81HPHPx8F+6MfwAmmYE/BceGPUAbggIGejCyp7OcfhIyupg5F+VwDaSTpvi78XjGd3r4gd02Ebliyp2ffP/0UvIi1241vgmSj1ZVFuALIZG1Xf8J9EoIzzkrKj6P0Iu2k5tOuh8jU8hwxwAsLQius=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kvwJ4OiJhVoB+4CiUbjJjY9EtmoJ6qFjLWBxP9D6b4CCkI5U89lMvk20y0kY/OLYXdXgJXzbOVd5/lxhIcMVXL/3bIT4ldR9kPzUBieyINHL/n6xBeEee/upt05yvPc2/7V7kT0K4ktpqOAMYzfPpmEL9o+7SBbKHA99xdIw+nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6ac46b9c5635c428c03c0ffeea565fdab788aa0d3a2ac7efb85d586e7ada2b89" Description="" Url=""><as:assemblyIdentity name="Степан.exe" version="1.0.0.2" publicKeyToken="eae6277d18e7a437" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-SS7MA5DF\Степан</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wqPB2EHKi6UxjzUsrvH8MigUjz/zAAxJXiGNnA5bL44=</DigestValue></Reference></SignedInfo><SignatureValue>exo0D0zGnNNhko4iTh5dtLjXWVhSPj/piDspue5j/84iplg5hcEFIdOlKIzIVPTvW3jLZL0FTzAbAg37hnek02O6X11/d9NBqgVAoKCgL0r22mNgK0x7bjSLvMLF1l/7Sf+VunNsYOsXGLN4kIwtbuTGi1XuxhklERQrWH/p+iE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kvwJ4OiJhVoB+4CiUbjJjY9EtmoJ6qFjLWBxP9D6b4CCkI5U89lMvk20y0kY/OLYXdXgJXzbOVd5/lxhIcMVXL/3bIT4ldR9kPzUBieyINHL/n6xBeEee/upt05yvPc2/7V7kT0K4ktpqOAMYzfPpmEL9o+7SBbKHA99xdIw+nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQcNJkmYVhL5lI43AbiRRDvzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwATABBAFAAVABPAFAALQBTAFMANwBNAEEANQBEAEYAXAQhBEIENQQ/BDAEPTAeFw0yMDA1MjAxMDMxNTdaFw0yMTA1MjAxNjMxNTdaMDcxNTAzBgNVBAMeLABMAEEAUABUAE8AUAAtAFMAUwA3AE0AQQA1AEQARgBcBCEEQgQ1BD8EMAQ9MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCS/Ang6ImFWgH7gKJRuMmNj0S2agnqoWMtYHE/0PpvgIKQjlTz2Uy+TbTLSRj84thd1eAlfNs5V3n+XGEhwxVcv/dshPiV1H2Q/NQGJ7Ig0cv+frEF4R57+6m3TnK89zb/tXuRPQriS2mo4AxjN8+mYQv2j7tIFsocD33F0jD6eQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABdw9b6+PnAhTWR0UuWyIwYue064669hHXkRfMBzqJ58pM9zGFEXz/7nlhJIkxeXiEY0aM7Oxx9FRvbG+H9zts2MHAzczF2+CaC9ODqDAy+fzEpqavkFlat8SxnPSbu+SYBGQW2rZ20LFlBaRuK1Or1HkBU9Jd7oJgOv8UeMeNPi</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
